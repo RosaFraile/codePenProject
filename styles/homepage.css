@@ -1,0 +1,106 @@
+.hero-section {
+    height: 650px;
+    background-color: #3c4248;
+}
+
+.hero-section > .top-hero-section {
+    color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-section >.top-hero-section > .introduction {
+    padding: 0px 90px 0 50px;
+}
+    
+
+.hero-section >.top-hero-section > .introduction > .font-big {
+    font-size: 2.7em;
+    line-height: 1em; 
+}
+
+.hero-section > .top-hero-section > .introduction > .font-small {
+    font-size: 2.2em;
+    line-height: 1.3em;
+}
+
+.hero-section > .top-hero-section > .introduction a {
+    font-size: 2.4em;
+}
+
+.fake-button {
+    padding: 10px 20px;
+    background-color: #353d3f ;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Sign Up for Free fake-button*/
+.hero-section > .top-hero-section > .introduction :nth-child(3) {
+    background-color: #5EC15C;
+    color: black;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.hero-section > .top-hero-section > .introduction :nth-child(3):hover {
+    background-color: black ;
+    color: #5EC15C;
+}
+
+/* Learn more fake-button */
+.hero-section > .top-hero-section > .introduction :nth-child(4) {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.hero-section > .top-hero-section > .introduction :nth-child(4):hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+.hero-section > .top-hero-section > .codpen-img-wrapper > .codpen-img {
+    margin-top: 40px;
+}
+
+.hero-section > .top-hero-section > .codpen-img-wrapper > .codpen-img p {
+    line-height: 0.1em;
+    font-weight: 900;
+    color: white;
+    padding-left: 15px;
+}
+
+.hero-section > .top-hero-section > .codpen-img-wrapper > .codpen-img img {
+    width: 540px;
+    box-shadow: -10px 0px 17px 0px rgba(0,0,0,0.45);
+}
+
+.hero-section > .bottom-hero-section {
+    background-color: #454f52;
+    font-family: 'Cabin Condensed', sans-serif;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-weight: 400;
+    
+}
+
+.hero-section > .bottom-hero-section div {
+    padding: 15px 0;
+    border: 1px solid darkgrey;
+    text-align: center;
+}
+
+.hero-section > .bottom-hero-section div {
+    font-size: 1.3em;
+}
+
+.hero-section > .bottom-hero-section div span {
+    font-size: 1.2em;
+}
+
+
+
+

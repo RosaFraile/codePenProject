@@ -1,0 +1,72 @@
+.navigation-wrapper {
+    padding: 10px 15px;
+    font-size: 1.5em;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column a {
+    font-size: 0;
+}
+
+.navigation-wrapper > .left-column img {
+    width: 200px;
+}
+
+.navigation-wrapper > .center-column {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navigation-wrapper > .center-column > .heading {
+    font-size: 0.75em;
+    color: #f1f44d;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #D7B728;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .right-column-wrapper {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .right-column-wrapper > .search {
+    padding: 5px;
+    font-size: 1em;
+    color: darkgrey;
+}
+
+.navigation-wrapper > .right-column > .right-column-wrapper a:hover {
+    background-color: darkgrey;
+    color: black;
+}
